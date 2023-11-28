@@ -1,0 +1,81 @@
+.aside {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.presentation {
+  min-width: 62.7%;
+  padding: 198px 597px 630px 103px;
+  background-color: #C4C4C4;
+}
+
+.presentation h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  color: black;
+  max-width: 504px;
+  margin-bottom: 109px;
+}
+
+.presentation p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.75px;
+  color: #25282B;
+  max-width: 440px;
+}
+
+.presentation p a {
+  text-decoration: none;
+  color: #6431C2;
+  font-weight: 700;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 37.3%;
+}
+
+.login h2 {
+  margin-bottom: 201.51px;
+  font-size: 48px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24.33px;
+  min-width: 370px;
+}
+
+.login__form input {
+  height: 66.67px;
+  background-color: #E4E4E4;
+  border: none;
+  border-radius: 5px;
+  padding-left: 48px;
+}
+
+.login__form button {
+  margin-top: 82.24px;
+  margin-bottom: 40.09px;
+  height: 75px;
+  color: white;
+  background-color: #343842;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 5px 15px rgba(48, 78, 140, 0.50);
+  cursor: pointer;
+}
+
+.login a {
+  text-decoration: none;
+  color: #1B2D50;
+  ;
+}

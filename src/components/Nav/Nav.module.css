@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px 12px 36px;
+  width: 100%;
+  background-color: #B5B6B9;
+  border: 1px #C4CCDE solid
+}
+
+.header__logo {
+  width: 90px;
+  height: 90px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 104px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #15213C;
+  cursor: pointer;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__search {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 66px;
+  padding: 6px 4px 8px 34px;
+  width: 242px;
+  background-color: transparent;
+  border: 1px black solid;
+  border-radius: 5px;
+}
